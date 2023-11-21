@@ -23,6 +23,9 @@ $url_base="http://localhost/crudphp/";
                 <a class="nav-link active" href="#" aria-current="page">Inicio<span class="visually-hidden">(current)</span></a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="<?php echo $url_base;?>modulos/categorias/">Categorias</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="<?php echo $url_base;?>modulos/contactos/">Banco de Preguntas</a>
             </li>
         </ul>
